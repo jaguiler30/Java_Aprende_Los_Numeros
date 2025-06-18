@@ -1,0 +1,16 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        int contador = 1;
+        System.out.println("Numero de 1 a 10:");
+        while (contador <=10){
+          System.out.println(contador);
+          contador = contador + 1;  
+        }
+        System.out.println("fin del programa");
+    }
+}
